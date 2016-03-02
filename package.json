@@ -1,7 +1,7 @@
 {
   "name": "happner-mongo-tests",
   "description": "test templates for happner with mongo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts":{
     "test":"node test/happner_tests",
     "test-cover": "istanbul cover _mocha -- silence.js test"
