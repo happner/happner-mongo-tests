@@ -11,7 +11,11 @@ module.exports = {
 	    name:"testMesh",
 	    datalayer: {
 	       secure: true,
-	       adminPassword:'happn'
+	       adminPassword:'happn',
+	       plugin:'happn-service-mongo',
+	       config:{
+	       	collection:"testMesh"
+	       }
 	    },
 	    modules: {
 	      "happnClient":{

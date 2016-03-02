@@ -9,6 +9,12 @@ module.exports = {
   },
   meshConfig:{
 	    name:"testMesh",
+	    datalayer: {
+	       plugin:"happn-service-mongo",
+	       config:{
+	       	collection:"testMesh"
+	       }
+	    },
 	    modules: {
 	      "happnClient":{
 	        path:"happn.client",

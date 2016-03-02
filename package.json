@@ -1,7 +1,7 @@
 {
   "name": "happner-mongo-tests",
   "description": "test templates for happner with mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts":{
     "test":"node test/happner_tests",
     "test-cover": "istanbul cover _mocha -- silence.js test"
@@ -13,10 +13,10 @@
   "dependencies": {
     "async": "^1.5.2",
     "fs-extra": "^0.26.5",
-    "happner": "^1.6.3",
-    "happn": "^2.5.8",
+    "happner": "^1.6.4",
+    "happn": "^2.5.9",
     "happner-tests": "^0.0.1",
-    "happn-service-mongo": "^0.0.6"
+    "happn-service-mongo": "^0.0.7"
   },
   "devDependencies": {
     "chai": "^3.2.0",
