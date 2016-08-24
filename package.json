@@ -15,7 +15,7 @@
     "bluebird": "^3.4.1",
     "fs-extra": "^0.26.5",
     "happn": "^2.11.0",
-    "happn-service-mongo": "^0.1.1",
+    "happn-service-mongo": "^0.1.2",
     "happner": "^1.18.0",
     "happner-tests": "^0.0.1"
   },
