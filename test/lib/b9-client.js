@@ -23,12 +23,6 @@ var Client = function () {
   this.start = function (options, callback) {
     _deviceData.options = options || {};
 
-    console.log('mesh client:::', {
-      secure: true,
-      port: _deviceData.options.serverMeshPort,
-      hostname: _deviceData.options.serverMeshHost
-    });
-
     _meshClient = new Mesh.MeshClient({
       secure: true,
       port: _deviceData.options.serverMeshPort,
@@ -53,8 +47,6 @@ var Client = function () {
 
 
   this.registerDevice = function (credentials, deviceDetails, callback, $happn) {
-
-    console.log('loggin in with creds:::', credentials);
 
     _this_module.login(credentials, afterLogin);
 

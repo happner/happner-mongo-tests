@@ -152,8 +152,6 @@ describe('b9 - mesh client security login', function () {
     function saveClient(client) {
       clientMesh = client;
 
-      console.log('all done!!', clientConfig);
-
       done();
     }
   });
